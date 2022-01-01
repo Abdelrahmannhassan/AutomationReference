@@ -12,7 +12,7 @@ public class TestMultipleWindows {
     @BeforeTest
     public void OpenURL() {
         System.setProperty("webdriver.chrome.driver",
-                "C:\\Users\\Engab\\Desktop\\SeleniumOld\\chromedriver_win32\\chromedriver.exe");
+                "C:\\Users\\Engab\\Desktop\\Selenium\\chromedriver_win32\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.navigate().to("http://cookbook.seleniumacademy.com/Config.html");
 
